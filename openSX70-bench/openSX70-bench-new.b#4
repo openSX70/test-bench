@@ -2804,9 +2804,9 @@
 <wire x1="10.1379" y1="57.1726" x2="10.0398" y2="57.1246" width="0.001" layer="21"/>
 <wire x1="10.0398" y1="57.1246" x2="10.0398" y2="57.2146" width="0.001" layer="21"/>
 <wire x1="10.0398" y1="57.2146" x2="10.1763" y2="57.3035" width="0.001" layer="21"/>
-<wire x1="10.1763" y1="57.3035" x2="10.2592" y2="57.3047" width="0.001" layer="21"/>
-<wire x1="10.2592" y1="57.3047" x2="10.3192" y2="57.3047" width="0.001" layer="21"/>
-<wire x1="10.3192" y1="57.3047" x2="10.3192" y2="56.6438" width="0.001" layer="21"/>
+<wire x1="10.1763" y1="57.3035" x2="10.9592" y2="58.4047" width="0.001" layer="21"/>
+<wire x1="10.9592" y1="58.4047" x2="11.0192" y2="58.4047" width="0.001" layer="21"/>
+<wire x1="11.0192" y1="58.4047" x2="10.3192" y2="56.6438" width="0.001" layer="21"/>
 <wire x1="10.5469" y1="56.8713" x2="10.5469" y2="56.9645" width="0.001" layer="21"/>
 <wire x1="10.5469" y1="56.9645" x2="10.8348" y2="56.9645" width="0.001" layer="21"/>
 <wire x1="10.8348" y1="56.9645" x2="10.8348" y2="56.8713" width="0.001" layer="21"/>
@@ -4102,33 +4102,41 @@ design rules under a new name.</description>
 <attribute name="NAME" x="79.1288" y="61.4662" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="74.125" y="61.39" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="GND-ICSP" library="openSX70" package="1X01" value="PINHEAD" x="66.68" y="44.79" rot="R180">
-<attribute name="NAME" x="68.0262" y="42.9612" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="67.95" y="47.965" size="1.27" layer="27" rot="R180"/>
+<element name="GND-ICSP" library="openSX70" package="1X01" value="PINHEAD" x="66.69" y="44.72" rot="R90">
+<attribute name="NAME" x="64.8612" y="43.3738" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="69.865" y="43.45" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="GNDS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="11.53" y="86.25" rot="R90">
-<attribute name="NAME" x="9.7012" y="81.0938" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="14.705" y="81.17" size="1.27" layer="27" rot="R90"/>
+<element name="GNDS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="17.05" y="91.37">
+<attribute name="NAME" x="11.8938" y="93.1988" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="11.97" y="88.195" size="1.27" layer="27"/>
 </element>
 <element name="ICSP" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X03" package3d_urn="urn:adsk.eagle:package:22462/2" value="" x="87.58" y="7.29" rot="R180">
 <attribute name="NAME" x="91.39" y="4.115" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="91.39" y="11.735" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="MISO" library="openSX70" package="1X01" value="PINHEAD" x="71.7" y="42.22">
-<attribute name="NAME" x="70.3538" y="44.0488" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="70.43" y="39.045" size="1.27" layer="27"/>
+<element name="MISO" library="openSX70" package="1X01" value="PINHEAD" x="71.72" y="42.2" rot="R270">
+<attribute name="NAME" x="73.5488" y="43.5462" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="68.545" y="43.47" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="MOSI" library="openSX70" package="1X01" value="PINHEAD" x="69.18" y="44.74" rot="R90">
 <attribute name="NAME" x="67.3512" y="43.3938" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="72.355" y="43.47" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RST" library="openSX70" package="1X01" value="PINHEAD" x="66.72" y="42.16" rot="R180">
-<attribute name="NAME" x="68.0662" y="40.3312" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="67.99" y="45.335" size="1.27" layer="27" rot="R180"/>
+<element name="RST" library="openSX70" package="1X01" value="PINHEAD" x="66.64" y="42.12" rot="R270">
+<attribute name="NAME" x="68.4688" y="43.4662" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="63.465" y="43.39" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="S1-T" library="openSX70" package="1X01" value="PINHEAD" x="5.44" y="54.16" rot="R180">
-<attribute name="NAME" x="6.7862" y="52.3312" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="6.71" y="57.335" size="1.27" layer="27" rot="R180"/>
+<element name="S1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="28.51" y="91.38" rot="R180">
+<attribute name="NAME" x="31.1262" y="89.5512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="31.05" y="94.555" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="S1+" library="openSX70" package="1X01" value="PINHEAD" x="10.06" y="57.62" rot="R90">
+<attribute name="NAME" x="8.2312" y="56.2738" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="13.235" y="56.35" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="S1-" library="openSX70" package="1X01" value="PINHEAD" x="-46.84" y="54.94">
+<attribute name="NAME" x="-48.1862" y="56.7688" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-48.11" y="51.765" size="1.27" layer="27"/>
 </element>
 <element name="S2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="46.86" y="92.08" rot="R180">
 <attribute name="NAME" x="49.4762" y="90.2512" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -4145,6 +4153,18 @@ design rules under a new name.</description>
 <element name="SCK" library="openSX70" package="1X01" value="PINHEAD" x="69.18" y="42.12" rot="R270">
 <attribute name="NAME" x="71.0088" y="43.4662" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="66.005" y="43.39" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="SCL" library="openSX70" package="1X01" value="PINHEAD" x="-27.98" y="68.98">
+<attribute name="NAME" x="-29.3262" y="70.8088" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-29.25" y="65.805" size="1.27" layer="27"/>
+</element>
+<element name="SDA" library="openSX70" package="1X01" value="PINHEAD" x="-46.84" y="70.18">
+<attribute name="NAME" x="-48.1862" y="72.0088" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-48.11" y="67.005" size="1.27" layer="27"/>
+</element>
+<element name="SDA/SCL" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-64.16" y="75.73" rot="R180">
+<attribute name="NAME" x="-61.5438" y="73.9012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="-61.62" y="78.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="SOL1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="28.22" y="6.57">
 <attribute name="NAME" x="23.0638" y="8.3988" size="1.27" layer="25" ratio="10"/>
@@ -4173,13 +4193,37 @@ design rules under a new name.</description>
 <element name="SONAR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="53.52" y="6.45" rot="R180">
 <attribute name="VALUE" x="63.68" y="9.625" size="1.27" layer="27" rot="R180"/>
 </element>
+<element name="TP-2.5V" library="openSX70" package="1X01" value="PINHEAD" x="-27.98" y="76.6">
+<attribute name="NAME" x="-29.3262" y="78.4288" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-29.25" y="73.425" size="1.27" layer="27"/>
+</element>
+<element name="TP-6V" library="openSX70" package="1X01" value="PINHEAD" x="-46.84" y="77.8">
+<attribute name="NAME" x="-48.1862" y="79.6288" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-48.11" y="74.625" size="1.27" layer="27"/>
+</element>
 <element name="VCC" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="85.49" y="92.07">
 <attribute name="NAME" x="81.7338" y="94.7988" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="80.41" y="88.895" size="1.27" layer="27"/>
 </element>
-<element name="VCC-ISCP" library="openSX70" package="1X01" value="PINHEAD" x="71.76" y="44.71">
-<attribute name="NAME" x="70.4138" y="46.5388" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="70.49" y="41.535" size="1.27" layer="27"/>
+<element name="VCC-ISCP" library="openSX70" package="1X01" value="PINHEAD" x="71.79" y="44.66" rot="R90">
+<attribute name="NAME" x="69.9612" y="43.3138" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="74.965" y="43.39" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="VCC-TP" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-27.48" y="97.43" rot="R180">
+<attribute name="NAME" x="-24.8638" y="95.6012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="-24.94" y="100.605" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="X1" library="openSX70" package="1X01" value="PINHEAD" x="-67.16" y="77.8">
+<attribute name="NAME" x="-68.5062" y="79.6288" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-68.43" y="74.625" size="1.27" layer="27"/>
+</element>
+<element name="X2" library="openSX70" package="1X01" value="PINHEAD" x="-77.32" y="77.8">
+<attribute name="NAME" x="-78.6662" y="79.6288" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-78.59" y="74.625" size="1.27" layer="27"/>
+</element>
+<element name="X3" library="openSX70" package="1X01" value="PINHEAD" x="-17.82" y="84.22">
+<attribute name="NAME" x="-19.1662" y="86.0488" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-19.09" y="81.045" size="1.27" layer="27"/>
 </element>
 <element name="XTRAS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="59.34" y="92.17">
 <attribute name="NAME" x="55.4538" y="93.9988" size="1.27" layer="25" ratio="10"/>
@@ -4195,34 +4239,6 @@ design rules under a new name.</description>
 <element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="13.6" y="39.5"/>
 <element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="95.8" y="39.3"/>
 <element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="95.1" y="56.8"/>
-<element name="S1-F" library="openSX70" package="1X01" value="PINHEAD" x="7.8" y="55" rot="R270">
-<attribute name="NAME" x="9.6288" y="56.3462" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="4.625" y="56.27" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="S1-COMMON" library="openSX70" package="1X01" value="PINHEAD" x="10.3" y="54.3">
-<attribute name="NAME" x="8.9538" y="56.1288" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="9.03" y="51.125" size="1.27" layer="27"/>
-</element>
-<element name="S1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="38.2" y="6.1" rot="R180">
-<attribute name="NAME" x="42.0862" y="4.2712" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="42.01" y="9.275" size="1.27" layer="27" rot="R180"/>
-</element>
-<element name="SOL2+1" library="openSX70" package="1X01" value="PINHEAD" x="12" y="57.4" rot="R90">
-<attribute name="NAME" x="10.1712" y="56.0538" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="15.175" y="56.13" size="1.27" layer="27" rot="R90"/>
-</element>
-<element name="S1F" library="openSX70" package="1X01" value="PINHEAD" x="70" y="60.6" rot="R90">
-<attribute name="NAME" x="68.1712" y="59.2538" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="73.175" y="59.33" size="1.27" layer="27" rot="R90"/>
-</element>
-<element name="S2B" library="openSX70" package="1X01" value="PINHEAD" x="88.4" y="60.6" rot="R90">
-<attribute name="NAME" x="86.5712" y="59.2538" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="91.575" y="59.33" size="1.27" layer="27" rot="R90"/>
-</element>
-<element name="GND-2" library="openSX70" package="1X01" value="PINHEAD" x="92" y="60.8" rot="R90">
-<attribute name="NAME" x="90.1712" y="59.4538" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="95.175" y="59.53" size="1.27" layer="27" rot="R90"/>
-</element>
 </elements>
 <signals>
 <signal name="VCC-C">
@@ -4234,7 +4250,7 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="MISO" pad="1"/>
 <contactref element="ICSP" pad="1"/>
-<wire x1="90.12" y1="8.56" x2="71.7" y2="42.22" width="0" layer="19" extent="1-1"/>
+<wire x1="90.12" y1="8.56" x2="71.72" y2="42.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="SCK" pad="1"/>
@@ -4244,14 +4260,14 @@ design rules under a new name.</description>
 <signal name="N$10">
 <contactref element="RST" pad="1"/>
 <contactref element="ICSP" pad="5"/>
-<wire x1="66.72" y1="42.16" x2="85.04" y2="8.56" width="0" layer="19" extent="1-1"/>
+<wire x1="66.64" y1="42.12" x2="85.04" y2="8.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="6V-I">
 <contactref element="VCC-ISCP" pad="1"/>
 <contactref element="ICSP" pad="2"/>
 <contactref element="VCC" pad="4"/>
-<wire x1="90.12" y1="6.02" x2="71.76" y2="44.71" width="0" layer="19" extent="1-1"/>
-<wire x1="89.3" y1="92.07" x2="71.76" y2="44.71" width="0" layer="19" extent="1-1"/>
+<wire x1="90.12" y1="6.02" x2="71.79" y2="44.66" width="0" layer="19" extent="1-1"/>
+<wire x1="89.3" y1="92.07" x2="71.79" y2="44.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="ICSP" pad="4"/>
@@ -4262,8 +4278,8 @@ design rules under a new name.</description>
 <contactref element="ICSP" pad="6"/>
 <contactref element="GND-ICSP" pad="1"/>
 <contactref element="GNDS" pad="4"/>
-<wire x1="85.04" y1="6.02" x2="11.53" y2="90.06" width="0" layer="19" extent="1-1"/>
-<wire x1="66.68" y1="44.79" x2="85.04" y2="6.02" width="0" layer="19" extent="1-1"/>
+<wire x1="85.04" y1="6.02" x2="20.86" y2="91.37" width="0" layer="19" extent="1-1"/>
+<wire x1="66.69" y1="44.72" x2="85.04" y2="6.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="6V-S">
 <contactref element="VCC" pad="3"/>
@@ -4305,17 +4321,45 @@ design rules under a new name.</description>
 <contactref element="BA" pad="1"/>
 <wire x1="32.03" y1="6.57" x2="23.39" y2="39.94" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="N$30">
+<contactref element="SCL" pad="1"/>
+<contactref element="SDA/SCL" pad="1"/>
+<wire x1="-62.89" y1="75.73" x2="-27.98" y2="68.98" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="SDA/SCL" pad="2"/>
+<contactref element="SDA" pad="1"/>
+<wire x1="-46.84" y1="70.18" x2="-65.43" y2="75.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$32">
+<contactref element="TP-2.5V" pad="1"/>
+<contactref element="VCC-TP" pad="1"/>
+<wire x1="-26.21" y1="97.43" x2="-27.98" y2="76.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$33">
+<contactref element="VCC-TP" pad="2"/>
+<contactref element="TP-6V" pad="1"/>
+<wire x1="-28.75" y1="97.43" x2="-46.84" y2="77.8" width="0" layer="19" extent="1-1"/>
+</signal>
 <signal name="N$34">
 <contactref element="SOL2+" pad="1"/>
 <contactref element="SOL2" pad="1"/>
-<contactref element="SOL2+1" pad="1"/>
 <wire x1="15.38" y1="57.22" x2="37.82" y2="91.82" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="57.4" x2="15.38" y2="57.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
 <contactref element="SOL2" pad="2"/>
 <contactref element="SOL2-" pad="1"/>
 <wire x1="18.9" y1="62.58" x2="40.36" y2="91.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$36">
+<contactref element="S1+" pad="1"/>
+<contactref element="S1" pad="1"/>
+<wire x1="10.06" y1="57.62" x2="29.78" y2="91.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$37">
+<contactref element="S1" pad="2"/>
+<contactref element="S1-" pad="1"/>
+<wire x1="-46.84" y1="54.94" x2="27.24" y2="91.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="S2+" pad="1"/>
@@ -4331,13 +4375,11 @@ design rules under a new name.</description>
 <contactref element="GNDS" pad="2"/>
 <contactref element="F-" pad="1"/>
 <contactref element="FLASH" pad="1"/>
-<wire x1="66.91" y1="6.55" x2="11.53" y2="84.98" width="0" layer="19" extent="1-1"/>
-<wire x1="75.2" y1="60.02" x2="11.53" y2="84.98" width="0" layer="19" extent="1-1"/>
+<wire x1="66.91" y1="6.55" x2="15.78" y2="91.37" width="0" layer="19" extent="1-1"/>
+<wire x1="75.2" y1="60.02" x2="15.78" y2="91.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND-S">
 <contactref element="GNDS" pad="3"/>
-<contactref element="GND-2" pad="1"/>
-<wire x1="92" y1="60.8" x2="11.53" y2="87.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="SONAR" pad="8"/>
@@ -4345,16 +4387,12 @@ design rules under a new name.</description>
 <signal name="N$13">
 <contactref element="SONAR" pad="7"/>
 <contactref element="U$2" pad="S2"/>
-<contactref element="S2B" pad="1"/>
-<wire x1="22.503634375" y1="59.001809375" x2="88.4" y2="60.6" width="0" layer="19" extent="1-1"/>
 <wire x1="47.17" y1="6.45" x2="22.503634375" y2="59.001809375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="SONAR" pad="6"/>
 <contactref element="U$2" pad="S1F"/>
-<contactref element="S1F" pad="1"/>
 <wire x1="49.71" y1="6.45" x2="23.78145" y2="58.03890625" width="0" layer="19" extent="1-1"/>
-<wire x1="70" y1="60.6" x2="23.78145" y2="58.03890625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="SONAR" pad="5"/>
@@ -4418,21 +4456,6 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="1"/>
 <contactref element="U$1" pad="S5"/>
 <wire x1="4.77139375" y1="42.602221875" x2="4.18" y2="6.1" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$21">
-<contactref element="S1-COMMON" pad="1"/>
-<contactref element="S1" pad="3"/>
-<wire x1="10.3" y1="54.3" x2="35.66" y2="6.1" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$22">
-<contactref element="S1-F" pad="1"/>
-<contactref element="S1" pad="2"/>
-<wire x1="7.8" y1="55" x2="38.2" y2="6.1" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$24">
-<contactref element="S1-T" pad="1"/>
-<contactref element="S1" pad="1"/>
-<wire x1="5.44" y1="54.16" x2="40.74" y2="6.1" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
