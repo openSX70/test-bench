@@ -207,7 +207,7 @@
 <hole x="9.625" y="1.3125" drill="1.1"/>
 <hole x="11.375" y="1.3125" drill="1.1"/>
 </package>
-<package name="SONAR-FLASHFLEX">
+<package name="SONAR-FLASHFLEX-HOLES">
 <text x="-7.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GTD</text>
 <text x="-6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">VCC</text>
 <text x="-4.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FT</text>
@@ -218,15 +218,23 @@
 <text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
 <text x="4" y="-3.2" size="0.3048" layer="21" font="vector" rot="R180">FLASHFLEX CONNECTOR
 ANGLE TOP: 306º
-ANGLE BOTTOM: 144º</text>
-<smd name="GTD" x="-8" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
-<smd name="VCC" x="-6.4" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
-<smd name="FT" x="-4.8" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
-<smd name="FF" x="-3.2" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
-<smd name="S1T" x="-1.6" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
-<smd name="S1F" x="0" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
-<smd name="S2" x="1.6" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
-<smd name="GND" x="3.2" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+ANGLE BOTTOM: 1444º</text>
+<smd name="GTD" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="VCC" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="FT" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="FF" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S1T" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S1F" x="0" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S2" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="GND" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<hole x="-8" y="-0.8" drill="1"/>
+<hole x="-6.4" y="-0.8" drill="1"/>
+<hole x="-4.8" y="-0.8" drill="1"/>
+<hole x="-3.2" y="-0.8" drill="1"/>
+<hole x="3.2" y="-0.8" drill="1"/>
+<hole x="-1.6" y="-0.8" drill="1"/>
+<hole x="0" y="-0.8" drill="1"/>
+<hole x="1.6" y="-0.8" drill="1"/>
 </package>
 </packages>
 <symbols>
@@ -301,12 +309,12 @@ ANGLE BOTTOM: 144º</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SX70-FLASHFLEX-SONAR-HOLES">
+<deviceset name="SX70-SONAR-FLASHFLEX-HOLES">
 <gates>
 <gate name="G$1" symbol="SX70-SONAR-PADS" x="43.18" y="-5.08"/>
 </gates>
 <devices>
-<device name="" package="SONAR-FLASHFLEX">
+<device name="" package="SONAR-FLASHFLEX-HOLES">
 <connects>
 <connect gate="G$1" pin="-" pad="GND"/>
 <connect gate="G$1" pin="FF" pad="FF"/>
@@ -1098,7 +1106,7 @@ ANGLE BOTTOM: 144º</text>
 <part name="VCC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GNDS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="U$1" library="openSX70" deviceset="SX70-7-PAD-HOLES-PROPER" device=""/>
-<part name="U$2" library="openSX70" deviceset="SX70-FLASHFLEX-SONAR-HOLES" device=""/>
+<part name="U$2" library="openSX70" deviceset="SX70-SONAR-FLASHFLEX-HOLES" device=""/>
 </parts>
 <sheets>
 <sheet>

@@ -3853,6 +3853,34 @@ ANGLE BOTTOM: 1444º</text>
 </package3d>
 </packages3d>
 </library>
+<library name="holes" urn="urn:adsk.eagle:library:237">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8" urn="urn:adsk.eagle:footprint:14239/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.8"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="2,8" urn="urn:adsk.eagle:package:14271/1" type="box" library_version="1">
+<description>MOUNTING HOLE 2.8 mm with drill center</description>
+<packageinstances>
+<packageinstance name="2,8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4054,9 +4082,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.6612" y="38.6338" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="24.665" y="38.71" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="F+" library="openSX70" package="1X01" value="PINHEAD" x="-64.12" y="9">
-<attribute name="NAME" x="-65.4662" y="10.8288" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-65.39" y="5.825" size="1.27" layer="27"/>
+<element name="F+" library="openSX70" package="1X01" value="PINHEAD" x="81.4" y="60.02" rot="R270">
+<attribute name="NAME" x="83.2288" y="61.3662" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="78.225" y="61.29" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="F-" library="openSX70" package="1X01" value="PINHEAD" x="75.2" y="60.02" rot="R90">
 <attribute name="NAME" x="73.3712" y="58.6738" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -4066,13 +4094,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="77.3712" y="58.8538" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="82.375" y="58.93" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="FLASH" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="61.62" y="6.45">
-<attribute name="NAME" x="56.4638" y="8.2788" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="56.54" y="3.275" size="1.27" layer="27"/>
+<element name="FLASH" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="70.72" y="6.55">
+<attribute name="NAME" x="65.5638" y="8.3788" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="65.64" y="3.375" size="1.27" layer="27"/>
 </element>
-<element name="FT" library="openSX70" package="1X01" value="PINHEAD" x="77.3" y="59.62" rot="R270">
-<attribute name="NAME" x="79.1288" y="60.9662" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="74.125" y="60.89" size="1.27" layer="27" rot="R270"/>
+<element name="FT" library="openSX70" package="1X01" value="PINHEAD" x="77.3" y="60.12" rot="R270">
+<attribute name="NAME" x="79.1288" y="61.4662" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="74.125" y="61.39" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="GND-ICSP" library="openSX70" package="1X01" value="PINHEAD" x="66.69" y="44.72" rot="R90">
 <attribute name="NAME" x="64.8612" y="43.3738" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -4082,9 +4110,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.8938" y="93.1988" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="11.97" y="88.195" size="1.27" layer="27"/>
 </element>
-<element name="ICSP" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X03" package3d_urn="urn:adsk.eagle:package:22462/2" value="" x="87.52" y="7.71">
-<attribute name="NAME" x="83.71" y="10.885" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="83.71" y="3.265" size="1.27" layer="27"/>
+<element name="ICSP" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X03" package3d_urn="urn:adsk.eagle:package:22462/2" value="" x="87.58" y="7.29" rot="R180">
+<attribute name="NAME" x="91.39" y="4.115" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="91.39" y="11.735" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="MISO" library="openSX70" package="1X01" value="PINHEAD" x="71.72" y="42.2" rot="R270">
 <attribute name="NAME" x="73.5488" y="43.5462" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -4134,13 +4162,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-48.1862" y="72.0088" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-48.11" y="67.005" size="1.27" layer="27"/>
 </element>
-<element name="SDA/SCL" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-59.54" y="91.77">
-<attribute name="NAME" x="-62.1562" y="93.5988" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-62.08" y="88.595" size="1.27" layer="27"/>
+<element name="SDA/SCL" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-64.16" y="75.73" rot="R180">
+<attribute name="NAME" x="-61.5438" y="73.9012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="-61.62" y="78.905" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="SOL1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="49.52" y="6.07">
-<attribute name="NAME" x="44.3638" y="7.8988" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="44.44" y="2.895" size="1.27" layer="27"/>
+<element name="SOL1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="28.22" y="6.57">
+<attribute name="NAME" x="23.0638" y="8.3988" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="23.14" y="3.395" size="1.27" layer="27"/>
 </element>
 <element name="SOL1+" library="openSX70" package="1X01" value="PINHEAD" x="19.62" y="39.9" rot="R90">
 <attribute name="NAME" x="17.7912" y="38.5538" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -4162,8 +4190,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.0712" y="61.2338" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="22.075" y="61.31" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="SONAR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="32.92" y="6.15" rot="R180">
-<attribute name="VALUE" x="43.08" y="9.325" size="1.27" layer="27" rot="R180"/>
+<element name="SONAR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="53.52" y="6.45" rot="R180">
+<attribute name="VALUE" x="63.68" y="9.625" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="TP-2.5V" library="openSX70" package="1X01" value="PINHEAD" x="-27.98" y="76.6">
 <attribute name="NAME" x="-29.3262" y="78.4288" size="1.27" layer="25" ratio="10"/>
@@ -4173,17 +4201,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-48.1862" y="79.6288" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-48.11" y="74.625" size="1.27" layer="27"/>
 </element>
-<element name="VCC" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="-48.11" y="91.77">
-<attribute name="NAME" x="-53.2662" y="93.5988" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-53.19" y="88.595" size="1.27" layer="27"/>
+<element name="VCC" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="85.49" y="92.07">
+<attribute name="NAME" x="81.7338" y="94.7988" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="80.41" y="88.895" size="1.27" layer="27"/>
 </element>
 <element name="VCC-ISCP" library="openSX70" package="1X01" value="PINHEAD" x="71.79" y="44.66" rot="R90">
 <attribute name="NAME" x="69.9612" y="43.3138" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="74.965" y="43.39" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="VCC-TP" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-77.32" y="91.77">
-<attribute name="NAME" x="-79.9362" y="93.5988" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-79.86" y="88.595" size="1.27" layer="27"/>
+<element name="VCC-TP" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-27.48" y="97.43" rot="R180">
+<attribute name="NAME" x="-24.8638" y="95.6012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="-24.94" y="100.605" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="X1" library="openSX70" package="1X01" value="PINHEAD" x="-67.16" y="77.8">
 <attribute name="NAME" x="-68.5062" y="79.6288" size="1.27" layer="25" ratio="10"/>
@@ -4197,9 +4225,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-19.1662" y="86.0488" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-19.09" y="81.045" size="1.27" layer="27"/>
 </element>
-<element name="XTRAS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="-67.16" y="91.77">
-<attribute name="NAME" x="-71.0462" y="93.5988" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-70.97" y="88.595" size="1.27" layer="27"/>
+<element name="XTRAS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="59.34" y="92.17">
+<attribute name="NAME" x="55.4538" y="93.9988" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="55.53" y="88.995" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="openSX70" package="SX70-7-PAD-PROPER-HOLES2" value="SX70-7-PAD-HOLES-PROPER" x="8.54" y="53.42" rot="R244"/>
 <element name="U$2" library="openSX70" package="SONAR-FLASHFLEX-HOLES" value="SX70-SONAR-FLASHFLEX-HOLES" x="23.3" y="57.4" rot="R143"/>
@@ -4207,6 +4235,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.8338" y="7.9288" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="2.91" y="2.925" size="1.27" layer="27"/>
 </element>
+<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="6.5" y="60" rot="R180"/>
+<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="13.6" y="39.5"/>
+<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="95.8" y="39.3"/>
+<element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="95.1" y="56.8"/>
 </elements>
 <signals>
 <signal name="VCC-C">
@@ -4218,36 +4250,36 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="MISO" pad="1"/>
 <contactref element="ICSP" pad="1"/>
-<wire x1="84.98" y1="6.44" x2="71.72" y2="42.2" width="0" layer="19" extent="1-1"/>
+<wire x1="90.12" y1="8.56" x2="71.72" y2="42.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="SCK" pad="1"/>
 <contactref element="ICSP" pad="3"/>
-<wire x1="87.52" y1="6.44" x2="69.18" y2="42.12" width="0" layer="19" extent="1-1"/>
+<wire x1="87.58" y1="8.56" x2="69.18" y2="42.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="RST" pad="1"/>
 <contactref element="ICSP" pad="5"/>
-<wire x1="66.64" y1="42.12" x2="90.06" y2="6.44" width="0" layer="19" extent="1-1"/>
+<wire x1="66.64" y1="42.12" x2="85.04" y2="8.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="6V-I">
 <contactref element="VCC-ISCP" pad="1"/>
 <contactref element="ICSP" pad="2"/>
 <contactref element="VCC" pad="4"/>
-<wire x1="84.98" y1="8.98" x2="71.79" y2="44.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.3" y1="91.77" x2="71.79" y2="44.66" width="0" layer="19" extent="1-1"/>
+<wire x1="90.12" y1="6.02" x2="71.79" y2="44.66" width="0" layer="19" extent="1-1"/>
+<wire x1="89.3" y1="92.07" x2="71.79" y2="44.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="ICSP" pad="4"/>
 <contactref element="MOSI" pad="1"/>
-<wire x1="87.52" y1="8.98" x2="69.18" y2="44.74" width="0" layer="19" extent="1-1"/>
+<wire x1="87.58" y1="6.02" x2="69.18" y2="44.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND-I">
 <contactref element="ICSP" pad="6"/>
 <contactref element="GND-ICSP" pad="1"/>
 <contactref element="GNDS" pad="4"/>
-<wire x1="90.06" y1="8.98" x2="20.86" y2="91.37" width="0" layer="19" extent="1-1"/>
-<wire x1="66.69" y1="44.72" x2="90.06" y2="8.98" width="0" layer="19" extent="1-1"/>
+<wire x1="85.04" y1="6.02" x2="20.86" y2="91.37" width="0" layer="19" extent="1-1"/>
+<wire x1="66.69" y1="44.72" x2="85.04" y2="6.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="6V-S">
 <contactref element="VCC" pad="3"/>
@@ -4255,59 +4287,59 @@ design rules under a new name.</description>
 <signal name="N$23">
 <contactref element="FT" pad="1"/>
 <contactref element="FLASH" pad="2"/>
-<wire x1="60.35" y1="6.45" x2="77.3" y2="59.62" width="0" layer="19" extent="1-1"/>
+<wire x1="69.45" y1="6.55" x2="77.3" y2="60.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="6V-F">
 <contactref element="F+" pad="1"/>
 <contactref element="FLASH" pad="3"/>
 <contactref element="VCC" pad="2"/>
-<wire x1="62.89" y1="6.45" x2="-49.38" y2="91.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.12" y1="9" x2="-49.38" y2="91.77" width="0" layer="19" extent="1-1"/>
+<wire x1="71.99" y1="6.55" x2="84.22" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="81.4" y1="60.02" x2="84.22" y2="92.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="FLASH" pad="4"/>
 <contactref element="FF" pad="1"/>
-<wire x1="65.43" y1="6.45" x2="79.2" y2="60.2" width="0" layer="19" extent="1-1"/>
+<wire x1="74.53" y1="6.55" x2="79.2" y2="60.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="SOL1-" pad="1"/>
 <contactref element="SOL1" pad="1"/>
-<wire x1="17.82" y1="39.84" x2="45.71" y2="6.07" width="0" layer="19" extent="1-1"/>
+<wire x1="17.82" y1="39.84" x2="24.41" y2="6.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="SOL1" pad="2"/>
 <contactref element="SOL1+" pad="1"/>
-<wire x1="19.62" y1="39.9" x2="48.25" y2="6.07" width="0" layer="19" extent="1-1"/>
+<wire x1="19.62" y1="39.9" x2="26.95" y2="6.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="BC" pad="1"/>
 <contactref element="SOL1" pad="3"/>
-<wire x1="50.79" y1="6.07" x2="21.49" y2="39.98" width="0" layer="19" extent="1-1"/>
+<wire x1="29.49" y1="6.57" x2="21.49" y2="39.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="SOL1" pad="4"/>
 <contactref element="BA" pad="1"/>
-<wire x1="53.33" y1="6.07" x2="23.39" y2="39.94" width="0" layer="19" extent="1-1"/>
+<wire x1="32.03" y1="6.57" x2="23.39" y2="39.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="SCL" pad="1"/>
 <contactref element="SDA/SCL" pad="1"/>
-<wire x1="-60.81" y1="91.77" x2="-27.98" y2="68.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.89" y1="75.73" x2="-27.98" y2="68.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="SDA/SCL" pad="2"/>
 <contactref element="SDA" pad="1"/>
-<wire x1="-46.84" y1="70.18" x2="-58.27" y2="91.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.84" y1="70.18" x2="-65.43" y2="75.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="TP-2.5V" pad="1"/>
 <contactref element="VCC-TP" pad="1"/>
-<wire x1="-78.59" y1="91.77" x2="-27.98" y2="76.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.21" y1="97.43" x2="-27.98" y2="76.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="VCC-TP" pad="2"/>
 <contactref element="TP-6V" pad="1"/>
-<wire x1="-76.05" y1="91.77" x2="-46.84" y2="77.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.75" y1="97.43" x2="-46.84" y2="77.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="SOL2+" pad="1"/>
@@ -4343,7 +4375,7 @@ design rules under a new name.</description>
 <contactref element="GNDS" pad="2"/>
 <contactref element="F-" pad="1"/>
 <contactref element="FLASH" pad="1"/>
-<wire x1="57.81" y1="6.45" x2="15.78" y2="91.37" width="0" layer="19" extent="1-1"/>
+<wire x1="66.91" y1="6.55" x2="15.78" y2="91.37" width="0" layer="19" extent="1-1"/>
 <wire x1="75.2" y1="60.02" x2="15.78" y2="91.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND-S">
@@ -4355,37 +4387,37 @@ design rules under a new name.</description>
 <signal name="N$13">
 <contactref element="SONAR" pad="7"/>
 <contactref element="U$2" pad="S2"/>
-<wire x1="26.57" y1="6.15" x2="22.503634375" y2="59.001809375" width="0" layer="19" extent="1-1"/>
+<wire x1="47.17" y1="6.45" x2="22.503634375" y2="59.001809375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="SONAR" pad="6"/>
 <contactref element="U$2" pad="S1F"/>
-<wire x1="29.11" y1="6.15" x2="23.78145" y2="58.03890625" width="0" layer="19" extent="1-1"/>
+<wire x1="49.71" y1="6.45" x2="23.78145" y2="58.03890625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="SONAR" pad="5"/>
 <contactref element="U$2" pad="S1T"/>
-<wire x1="31.65" y1="6.15" x2="25.05926875" y2="57.076003125" width="0" layer="19" extent="1-1"/>
+<wire x1="52.25" y1="6.45" x2="25.05926875" y2="57.076003125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="SONAR" pad="2"/>
 <contactref element="U$2" pad="VCC"/>
-<wire x1="39.27" y1="6.15" x2="28.89271875" y2="54.187290625" width="0" layer="19" extent="1-1"/>
+<wire x1="59.87" y1="6.45" x2="28.89271875" y2="54.187290625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="SONAR" pad="3"/>
 <contactref element="U$2" pad="FF"/>
-<wire x1="36.73" y1="6.15" x2="26.337084375" y2="56.1131" width="0" layer="19" extent="1-1"/>
+<wire x1="57.33" y1="6.45" x2="26.337084375" y2="56.1131" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="SONAR" pad="1"/>
 <contactref element="U$2" pad="GTD"/>
-<wire x1="41.81" y1="6.15" x2="30.170534375" y2="53.2243875" width="0" layer="19" extent="1-1"/>
+<wire x1="62.41" y1="6.45" x2="30.170534375" y2="53.2243875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="SONAR" pad="4"/>
 <contactref element="U$2" pad="FT"/>
-<wire x1="34.19" y1="6.15" x2="27.6149" y2="55.15019375" width="0" layer="19" extent="1-1"/>
+<wire x1="54.79" y1="6.45" x2="27.6149" y2="55.15019375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="U$2" pad="GND"/>
