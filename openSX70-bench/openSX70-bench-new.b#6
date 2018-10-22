@@ -4239,6 +4239,18 @@ design rules under a new name.</description>
 <element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="13.6" y="39.5"/>
 <element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="95.8" y="39.3"/>
 <element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="95.1" y="56.8"/>
+<element name="S1+1" library="openSX70" package="1X01" value="PINHEAD" x="-77.3" y="-3.7">
+<attribute name="NAME" x="-78.6462" y="-1.8712" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-78.57" y="-6.875" size="1.27" layer="27"/>
+</element>
+<element name="S1-1" library="openSX70" package="1X01" value="PINHEAD" x="-77.3" y="-11.1">
+<attribute name="NAME" x="-78.6462" y="-9.2712" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-78.57" y="-14.275" size="1.27" layer="27"/>
+</element>
+<element name="FLASH1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="-73.5" y="-18.5">
+<attribute name="NAME" x="-78.6562" y="-16.6712" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-78.58" y="-21.675" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC-C">
