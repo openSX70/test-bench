@@ -1602,7 +1602,6 @@ ANGLE BOTTOM: 1444º</text>
 <part name="SOL2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="S2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SONAR_FLASHFLEX" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
-<part name="XTRAS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="VCC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GNDS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="U$1" library="openSX70" deviceset="SX70-7-PAD-HOLES-PROPER" device=""/>
@@ -1737,10 +1736,6 @@ ANGLE BOTTOM: 1444º</text>
 <instance part="SONAR_FLASHFLEX" gate="A" x="58.42" y="144.78">
 <attribute name="NAME" x="52.07" y="158.115" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="132.08" size="1.778" layer="96"/>
-</instance>
-<instance part="XTRAS" gate="A" x="223.52" y="154.94">
-<attribute name="NAME" x="217.17" y="160.655" size="1.778" layer="95"/>
-<attribute name="VALUE" x="217.17" y="147.32" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC" gate="A" x="246.38" y="81.28" rot="R180">
 <attribute name="NAME" x="252.73" y="73.025" size="1.778" layer="95" rot="R180"/>

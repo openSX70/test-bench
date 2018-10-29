@@ -248,8 +248,8 @@ ANGLE BOTTOM: 1444º</text>
 <wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="S9" x="10.16" y="15.24" length="short" rot="R180"/>
-<pin name="S8" x="10.16" y="10.16" length="short" rot="R180"/>
+<pin name="S8" x="10.16" y="15.24" length="short" rot="R180"/>
+<pin name="S9" x="10.16" y="10.16" length="short" rot="R180"/>
 <pin name="6V" x="10.16" y="5.08" length="short" rot="R180"/>
 <pin name="MOTOR+" x="10.16" y="0" length="short" rot="R180"/>
 <pin name="GND" x="10.16" y="-5.08" length="short" rot="R180"/>
@@ -1813,6 +1813,8 @@ ANGLE BOTTOM: 1444º</text>
 <pinref part="JP1" gate="A" pin="7"/>
 <wire x1="25.4" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="86.36" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="S8"/>
+<wire x1="25.4" y1="99.06" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1820,6 +1822,8 @@ ANGLE BOTTOM: 1444º</text>
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="35.56" y1="81.28" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="S9"/>
+<wire x1="30.48" y1="99.06" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">

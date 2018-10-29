@@ -1810,8 +1810,6 @@ ANGLE BOTTOM: 1444º</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="S9"/>
-<wire x1="25.4" y1="99.06" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="7"/>
 <wire x1="25.4" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="86.36" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
@@ -1822,8 +1820,6 @@ ANGLE BOTTOM: 1444º</text>
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="35.56" y1="81.28" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="S8"/>
-<wire x1="30.48" y1="91.44" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
