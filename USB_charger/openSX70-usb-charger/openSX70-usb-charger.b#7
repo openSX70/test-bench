@@ -191,6 +191,8 @@
 <text x="71" y="27" size="1.778" layer="25" font="vector">GND</text>
 <text x="61" y="9" size="1.778" layer="25" font="vector">LED</text>
 <text x="39" y="34" size="2.54" layer="25" font="vector">openSX70 battery charger</text>
+<text x="19" y="40" size="2.54" layer="1" font="vector">top</text>
+<text x="26" y="37" size="2.54" layer="16" font="vector" rot="MR0">bottom</text>
 </plain>
 <libraries>
 <library name="resistor" urn="urn:adsk.eagle:library:348">

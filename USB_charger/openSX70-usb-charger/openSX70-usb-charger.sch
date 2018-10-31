@@ -7162,6 +7162,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7259,6 +7260,9 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="-71.628" y="25.9842" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-71.628" y="22.9362" size="1.778" layer="96"/>
 </instance>
+<instance part="GND2" gate="1" x="21.59" y="92.964" rot="R180">
+<attribute name="VALUE" x="24.13" y="95.504" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7302,6 +7306,17 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="69.85" x2="44.704" y2="69.85" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="81.28" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="86.36" x2="21.59" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="81.534" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="21.59" y1="90.424" x2="21.59" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="21.59" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="6VIN" class="0">
@@ -7397,15 +7412,6 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="PAD-6V" gate="1" pin="MP"/>
 <wire x1="-12.7" y1="71.12" x2="-12.7" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-12.7" y="73.66"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="81.28" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="81.534" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

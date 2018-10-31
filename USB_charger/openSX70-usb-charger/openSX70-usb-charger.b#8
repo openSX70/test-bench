@@ -1829,14 +1829,17 @@ design rules under a new name.</description>
 <vertex x="1" y="0"/>
 <vertex x="1" y="1"/>
 </polygon>
-<wire x1="27" y1="74" x2="63.5" y2="73.74" width="0" layer="19" extent="1-16"/>
-<wire x1="73" y1="25" x2="63.5" y2="73.74" width="0" layer="19" extent="1-1"/>
-<wire x1="79.7" y1="14.14" x2="73" y2="25" width="0" layer="19" extent="1-1"/>
-<wire x1="51.81" y1="9.025" x2="73" y2="25" width="0" layer="19" extent="1-1"/>
-<wire x1="47.5475" y1="10.675" x2="51.81" y2="9.025" width="0" layer="19" extent="1-1"/>
-<wire x1="32.38" y1="5.325" x2="47.5475" y2="10.675" width="0" layer="19" extent="1-1"/>
-<wire x1="24.3" y1="10.9" x2="32.38" y2="5.325" width="0" layer="19" extent="1-1"/>
-<wire x1="40" y1="25" x2="47.5475" y2="10.675" width="0" layer="19" extent="1-1"/>
+<wire x1="27.1272" y1="37.9476" x2="27.1272" y2="73.914" width="0.1524" layer="16"/>
+<wire x1="39.9288" y1="25.146" x2="27.1272" y2="37.9476" width="0.1524" layer="16"/>
+<wire x1="27.1272" y1="73.914" x2="27" y2="74" width="0.1524" layer="16"/>
+<wire x1="39.9288" y1="25.146" x2="40" y2="25" width="0.1524" layer="16"/>
+<polygon width="0.8128" layer="16">
+<vertex x="2" y="107"/>
+<vertex x="89" y="107"/>
+<vertex x="89" y="1"/>
+<vertex x="1" y="1"/>
+<vertex x="1" y="107"/>
+</polygon>
 </signal>
 <signal name="6VIN">
 <contactref element="C1" pad="2"/>
@@ -1897,7 +1900,8 @@ design rules under a new name.</description>
 <wire x1="50.5" y1="3.5" x2="52" y2="2" width="0.8128" layer="1"/>
 <wire x1="63.5" y1="7" x2="63.5" y2="6.3" width="0.8128" layer="16"/>
 <wire x1="63.5" y1="6.3" x2="61.58" y2="4.38" width="0.8128" layer="16"/>
-<wire x1="63.5" y1="6.3" x2="66.5" y2="3.98" width="0" layer="19" extent="1-16"/>
+<wire x1="61.58" y1="4.38" x2="61.98" y2="3.98" width="0.8128" layer="1"/>
+<wire x1="61.98" y1="3.98" x2="66.5" y2="3.98" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="K"/>
