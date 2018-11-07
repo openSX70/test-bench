@@ -207,35 +207,6 @@
 <hole x="9.625" y="1.3125" drill="1.1"/>
 <hole x="11.375" y="1.3125" drill="1.1"/>
 </package>
-<package name="SONAR-FLASHFLEX-HOLES">
-<text x="-7.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GTD</text>
-<text x="-6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">VCC</text>
-<text x="-4.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FT</text>
-<text x="-2.8" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FF</text>
-<text x="-1.2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1T</text>
-<text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
-<text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
-<text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
-<text x="4" y="-3.2" size="0.3048" layer="21" font="vector" rot="R180">FLASHFLEX CONNECTOR
-ANGLE TOP: 306º
-ANGLE BOTTOM: 1444º</text>
-<smd name="GTD" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="VCC" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="FT" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="FF" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="S1T" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="S1F" x="0" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="S2" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="GND" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<hole x="-8" y="-0.8" drill="1"/>
-<hole x="-6.4" y="-0.8" drill="1"/>
-<hole x="-4.8" y="-0.8" drill="1"/>
-<hole x="-3.2" y="-0.8" drill="1"/>
-<hole x="3.2" y="-0.8" drill="1"/>
-<hole x="-1.6" y="-0.8" drill="1"/>
-<hole x="0" y="-0.8" drill="1"/>
-<hole x="1.6" y="-0.8" drill="1"/>
-</package>
 </packages>
 <symbols>
 <symbol name="PIN">
@@ -255,21 +226,6 @@ ANGLE BOTTOM: 1444º</text>
 <pin name="GND" x="10.16" y="-5.08" length="short" rot="R180"/>
 <pin name="S3" x="10.16" y="-10.16" length="short" rot="R180"/>
 <pin name="S5" x="10.16" y="-15.24" length="short" rot="R180"/>
-</symbol>
-<symbol name="SX70-SONAR-PADS">
-<wire x1="-55.88" y1="25.4" x2="-55.88" y2="-17.78" width="0" layer="94"/>
-<wire x1="-55.88" y1="-17.78" x2="-40.64" y2="-17.78" width="0" layer="94"/>
-<wire x1="-40.64" y1="-17.78" x2="-40.64" y2="25.4" width="0" layer="94"/>
-<wire x1="-40.64" y1="25.4" x2="-55.88" y2="25.4" width="0" layer="94"/>
-<text x="-53.34" y="-2.54" size="1.778" layer="94" font="vector" rot="R90">SX70 SONAR</text>
-<pin name="GTD" x="-35.56" y="22.86" length="middle" rot="R180"/>
-<pin name="VCC" x="-35.56" y="17.78" length="middle" rot="R180"/>
-<pin name="FF" x="-35.56" y="12.7" length="middle" rot="R180"/>
-<pin name="FT" x="-35.56" y="7.62" length="middle" rot="R180"/>
-<pin name="S1T" x="-35.56" y="2.54" length="middle" rot="R180"/>
-<pin name="S1F" x="-35.56" y="-2.54" length="middle" rot="R180"/>
-<pin name="S2" x="-35.56" y="-7.62" length="middle" rot="R180"/>
-<pin name="-" x="-35.56" y="-12.7" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -302,28 +258,6 @@ ANGLE BOTTOM: 1444º</text>
 <connect gate="G$1" pin="S5" pad="S5"/>
 <connect gate="G$1" pin="S8" pad="S8"/>
 <connect gate="G$1" pin="S9" pad="S9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SX70-SONAR-FLASHFLEX-HOLES">
-<gates>
-<gate name="G$1" symbol="SX70-SONAR-PADS" x="43.18" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="SONAR-FLASHFLEX-HOLES">
-<connects>
-<connect gate="G$1" pin="-" pad="GND"/>
-<connect gate="G$1" pin="FF" pad="FF"/>
-<connect gate="G$1" pin="FT" pad="FT"/>
-<connect gate="G$1" pin="GTD" pad="GTD"/>
-<connect gate="G$1" pin="S1F" pad="S1F"/>
-<connect gate="G$1" pin="S1T" pad="S1T"/>
-<connect gate="G$1" pin="S2" pad="S2"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1739,6 +1673,86 @@ ANGLE BOTTOM: 1444º</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="_openSX70">
+<packages>
+<package name="SONAR-FLASHFLEX-HOLES">
+<text x="-7.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GTD</text>
+<text x="-6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">VCC</text>
+<text x="-4.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FT</text>
+<text x="-2.8" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FF</text>
+<text x="-1.2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1T</text>
+<text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
+<text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
+<text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
+<smd name="GTD" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="VCC" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="FT" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="FF" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S1T" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S1F" x="0" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S2" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="GND" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<hole x="-8" y="-0.8" drill="1.1"/>
+<hole x="-6.4" y="-0.8" drill="1"/>
+<hole x="-4.8" y="-0.8" drill="1"/>
+<hole x="-3.2" y="-0.8" drill="1"/>
+<hole x="3.2" y="-0.8" drill="1"/>
+<hole x="-1.6" y="-0.8" drill="1"/>
+<hole x="0" y="-0.8" drill="1"/>
+<hole x="1.6" y="-0.8" drill="1"/>
+<smd name="GTDB" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="VCCB" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="FTB" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="FFB" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="S1TB" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="S1FB" x="0" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="S1" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="GNDB" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="S2B" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SX70-SONAR-PADS">
+<wire x1="-7.62" y1="20.32" x2="-7.62" y2="-22.86" width="0" layer="94"/>
+<wire x1="-7.62" y1="-22.86" x2="7.62" y2="-22.86" width="0" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0" layer="94"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="94" font="vector" rot="R90">SX70 SONAR</text>
+<pin name="GTD" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="FF" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="FT" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="S1T" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="S1F" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="S2" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="-" x="12.7" y="-17.78" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SX70-SONAR-FLASHFLEX-HOLES">
+<gates>
+<gate name="G$1" symbol="SX70-SONAR-PADS" x="43.18" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SONAR-FLASHFLEX-HOLES">
+<connects>
+<connect gate="G$1" pin="-" pad="GND"/>
+<connect gate="G$1" pin="FF" pad="FF"/>
+<connect gate="G$1" pin="FT" pad="FT"/>
+<connect gate="G$1" pin="GTD" pad="GTD"/>
+<connect gate="G$1" pin="S1F" pad="S1F"/>
+<connect gate="G$1" pin="S1T" pad="S1T"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1781,7 +1795,7 @@ ANGLE BOTTOM: 1444º</text>
 <part name="VCC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GNDS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="U$1" library="openSX70" deviceset="SX70-7-PAD-HOLES-PROPER" device=""/>
-<part name="U$2" library="openSX70" deviceset="SX70-SONAR-FLASHFLEX-HOLES" device=""/>
+<part name="U$2" library="_openSX70" deviceset="SX70-SONAR-FLASHFLEX-HOLES" device=""/>
 <part name="FLEXCABLE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X7" device="" package3d_urn="urn:adsk.eagle:package:22477/2"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
@@ -1926,7 +1940,7 @@ ANGLE BOTTOM: 1444º</text>
 <attribute name="VALUE" x="255.27" y="66.04" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$1" gate="G$1" x="40.64" y="109.22" rot="MR270"/>
-<instance part="U$2" gate="G$1" x="66.04" y="142.24"/>
+<instance part="U$2" gate="G$1" x="17.78" y="147.32"/>
 <instance part="FLEXCABLE" gate="A" x="40.64" y="78.74" rot="R270">
 <attribute name="NAME" x="51.435" y="85.09" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="27.94" y="85.09" size="1.778" layer="96" rot="R270"/>
@@ -2638,10 +2652,6 @@ ANGLE BOTTOM: 1444º</text>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
