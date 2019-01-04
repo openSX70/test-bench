@@ -1369,6 +1369,7 @@
 <text x="17.78" y="5.08" size="1.778" layer="25" font="vector" rot="R90">S9</text>
 <text x="20.32" y="5.08" size="1.778" layer="25" font="vector" rot="R90">S8</text>
 <text x="25.4" y="2.54" size="1.778" layer="25" font="vector" rot="R90">SOL1+</text>
+<text x="-5.08" y="45.72" size="1.778" layer="25" font="vector" rot="R90">S5</text>
 <text x="27.94" y="2.54" size="1.778" layer="25" font="vector" rot="R90">SOL1-</text>
 <text x="30.48" y="2.54" size="1.778" layer="25" font="vector" rot="R90">SOL1B</text>
 <text x="33.02" y="2.54" size="1.778" layer="25" font="vector" rot="R90">SOL1A</text>
@@ -1468,6 +1469,35 @@
 <hole x="7.875" y="1.3125" drill="1.1"/>
 <hole x="9.625" y="1.3125" drill="1.1"/>
 <hole x="11.375" y="1.3125" drill="1.1"/>
+</package>
+<package name="SONAR-FLASHFLEX-HOLES">
+<text x="-7.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GTD</text>
+<text x="-6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">VCC</text>
+<text x="-4.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FT</text>
+<text x="-2.8" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FF</text>
+<text x="-1.2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1T</text>
+<text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
+<text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
+<text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
+<text x="4" y="-3.2" size="0.3048" layer="21" font="vector" rot="R180">FLASHFLEX CONNECTOR
+ANGLE TOP: 306º
+ANGLE BOTTOM: 1444º</text>
+<smd name="GTD" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="VCC" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="FT" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="FF" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S1T" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S1F" x="0" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S2" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="GND" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<hole x="-8" y="-0.8" drill="1"/>
+<hole x="-6.4" y="-0.8" drill="1"/>
+<hole x="-4.8" y="-0.8" drill="1"/>
+<hole x="-3.2" y="-0.8" drill="1"/>
+<hole x="3.2" y="-0.8" drill="1"/>
+<hole x="-1.6" y="-0.8" drill="1"/>
+<hole x="0" y="-0.8" drill="1"/>
+<hole x="1.6" y="-0.8" drill="1"/>
 </package>
 </packages>
 </library>
@@ -1936,45 +1966,6 @@
 </package>
 </packages>
 </library>
-<library name="_openSX70">
-<packages>
-<package name="SONAR-FLASHFLEX-HOLES">
-<text x="-7.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GTD</text>
-<text x="-6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">VCC</text>
-<text x="-4.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FT</text>
-<text x="-2.8" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FF</text>
-<text x="-1.2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1T</text>
-<text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
-<text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
-<text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
-<smd name="GTD" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="VCC" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="FT" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="FF" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="S1T" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="S1F" x="0" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="S2" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="GND" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<hole x="-8" y="-0.8" drill="1.1"/>
-<hole x="-6.4" y="-0.8" drill="1"/>
-<hole x="-4.8" y="-0.8" drill="1"/>
-<hole x="-3.2" y="-0.8" drill="1"/>
-<hole x="3.2" y="-0.8" drill="1"/>
-<hole x="-1.6" y="-0.8" drill="1"/>
-<hole x="0" y="-0.8" drill="1"/>
-<hole x="1.6" y="-0.8" drill="1"/>
-<smd name="GTDB" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
-<smd name="VCCB" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
-<smd name="FTB" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
-<smd name="FFB" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
-<smd name="S1TB" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
-<smd name="S1FB" x="0" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
-<smd name="S1" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
-<smd name="GNDB" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
-<smd name="S2B" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2282,7 +2273,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="70.49" y="41.535" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="openSX70" package="SX70-7-PAD-PROPER-HOLES2" value="SX70-7-PAD-HOLES-PROPER" x="8.54" y="53.42" rot="R244"/>
-<element name="U$2" library="_openSX70" package="SONAR-FLASHFLEX-HOLES" value="SX70-SONAR-FLASHFLEX-HOLES" x="23.3" y="57.4" rot="R143"/>
+<element name="U$2" library="openSX70" package="SONAR-FLASHFLEX-HOLES" value="SX70-SONAR-FLASHFLEX-HOLES" x="23.3" y="57.4" rot="R143"/>
 <element name="FLEXCABLE" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X07" package3d_urn="urn:adsk.eagle:package:22477/2" value="" x="11.8" y="11.44">
 <attribute name="NAME" x="15.3862" y="20.4712" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="2.91" y="8.265" size="1.27" layer="27"/>
@@ -2563,6 +2554,7 @@ design rules under a new name.</description>
 <contactref element="SONAR_FLASHFLEX" pad="2"/>
 <contactref element="U$2" pad="VCC"/>
 <contactref element="SONAR_FLASHFLEX1" pad="2"/>
+<wire x1="28.89271875" y1="54.187290625" x2="31.102715625" y2="56.3972875" width="0.3048" layer="1"/>
 <wire x1="31.102715625" y1="56.3972875" x2="33.125428125" y2="58.42" width="0.3048" layer="1"/>
 <wire x1="33.125428125" y1="58.42" x2="40.64" y2="58.42" width="0.3048" layer="1"/>
 <wire x1="40.64" y1="58.42" x2="45.72" y2="53.34" width="0.3048" layer="1"/>
@@ -2582,7 +2574,6 @@ design rules under a new name.</description>
 <wire x1="31" y1="56.5" x2="31" y2="87.5" width="0.3048" layer="1"/>
 <wire x1="28.5" y1="90" x2="28.48" y2="90.455" width="0.3048" layer="1"/>
 <wire x1="31" y1="56.5" x2="31.102715625" y2="56.3972875" width="0.3048" layer="1"/>
-<wire x1="28.89271875" y1="54.187290625" x2="31.102715625" y2="56.3972875" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="FT" pad="1"/>
@@ -2818,6 +2809,8 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="S2"/>
 <contactref element="S2B" pad="1"/>
 <contactref element="SONAR_FLASHFLEX1" pad="7"/>
+<wire x1="22.503634375" y1="59.001809375" x2="19.97" y2="55.68" width="0.3048" layer="1"/>
+<wire x1="19.97" y1="55.68" x2="20.32" y2="50.8" width="0.3048" layer="1"/>
 <wire x1="23.076225" y1="48.0143" x2="22.3616" y2="48.728925" width="0.3048" layer="1"/>
 <wire x1="25.9084" y1="47.707140625" x2="23.076225" y2="48.0143" width="0.3048" layer="1"/>
 <wire x1="56.165665625" y1="19.043703125" x2="25.9084" y2="47.707140625" width="0.3048" layer="1"/>
@@ -2835,14 +2828,16 @@ design rules under a new name.</description>
 <wire x1="88" y1="60.5" x2="88.4" y2="60.6" width="0.3048" layer="1"/>
 <wire x1="63.5" y1="16" x2="63.39" y2="15.56" width="0.3048" layer="16"/>
 <via x="82.5" y="39.5" extent="1-16" drill="0.35"/>
-<wire x1="20.32" y1="56.818175" x2="20.32" y2="50.8" width="0.3048" layer="1"/>
-<wire x1="22.503634375" y1="59.001809375" x2="20.32" y2="56.818175" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="SONAR_FLASHFLEX" pad="6"/>
 <contactref element="U$2" pad="S1F"/>
 <contactref element="S1F" pad="1"/>
 <contactref element="SONAR_FLASHFLEX1" pad="6"/>
+<wire x1="23.78145" y1="58.03890625" x2="22.159253125" y2="56.01900625" width="0.3048" layer="1"/>
+<wire x1="22.70748125" y1="55.578634375" x2="22.70748125" y2="53.80748125" width="0.3048" layer="1"/>
+<wire x1="22.70748125" y1="53.80748125" x2="22.5" y2="53.6" width="0.3048" layer="1"/>
+<wire x1="22.5" y1="53.5" x2="22.5" y2="53.6" width="0.3048" layer="1"/>
 <wire x1="26" y1="50" x2="22.5" y2="53.5" width="0.3048" layer="16"/>
 <wire x1="26" y1="45" x2="26" y2="50" width="0.3048" layer="16"/>
 <wire x1="31.5" y1="39.5" x2="26" y2="45" width="0.3048" layer="1"/>
@@ -2862,28 +2857,29 @@ design rules under a new name.</description>
 <via x="22.5" y="53.5" extent="1-16" drill="0.35"/>
 <via x="26" y="45" extent="1-16" drill="0.35"/>
 <via x="40" y="30.5" extent="1-16" drill="0.35"/>
-<wire x1="23.78145" y1="58.03890625" x2="22.5" y2="56.75745625" width="0.3048" layer="1"/>
-<wire x1="22.5" y1="56.75745625" x2="22.5" y2="53.5" width="0.3048" layer="1"/>
+<wire x1="22.70748125" y1="55.578634375" x2="22.159253125" y2="56.01900625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="SONAR_FLASHFLEX" pad="5"/>
 <contactref element="U$2" pad="S1T"/>
 <contactref element="SONAR_FLASHFLEX1" pad="5"/>
+<wire x1="25.05926875" y1="57.076003125" x2="23.4703125" y2="55.022975" width="0.3048" layer="1"/>
+<wire x1="23.5" y1="55" x2="23.4703125" y2="55.022975" width="0.3048" layer="1"/>
 <wire x1="68.5" y1="15.5" x2="68.5" y2="11.5" width="0.3048" layer="1"/>
 <wire x1="68.5" y1="11.5" x2="68.52" y2="11.44" width="0.3048" layer="1"/>
 <wire x1="68.5" y1="15.5" x2="68.47" y2="15.56" width="0.3048" layer="1"/>
-<wire x1="24.01730625" y1="53.46389375" x2="57.8216" y2="19.6596" width="0.3048" layer="1"/>
+<wire x1="57.8216" y1="19.6596" x2="24.01730625" y2="53.46389375" width="0.3048" layer="1"/>
 <wire x1="64.2366" y1="19.6596" x2="57.8216" y2="19.6596" width="0.3048" layer="1"/>
 <wire x1="67.8942" y1="16.002" x2="64.2366" y2="19.6596" width="0.3048" layer="1"/>
+<wire x1="24.01730625" y1="53.46389375" x2="23.5" y2="55" width="0.3048" layer="1"/>
 <wire x1="68" y1="16" x2="68.47" y2="15.56" width="0.3048" layer="1"/>
 <wire x1="68" y1="16" x2="67.8942" y2="16.002" width="0.3048" layer="1"/>
-<wire x1="25.05926875" y1="57.076003125" x2="24.01730625" y2="56.034040625" width="0.3048" layer="1"/>
-<wire x1="24.01730625" y1="56.034040625" x2="24.01730625" y2="53.46389375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="SONAR_FLASHFLEX" pad="3"/>
 <contactref element="U$2" pad="FF"/>
 <contactref element="SONAR_FLASHFLEX1" pad="3"/>
+<wire x1="26.337084375" y1="56.1131" x2="24.88350625" y2="54.20400625" width="0.3048" layer="1"/>
 <wire x1="73.5" y1="11.5" x2="73.5" y2="15.5" width="0.3048" layer="1"/>
 <wire x1="73.5" y1="15.5" x2="73.55" y2="15.56" width="0.3048" layer="1"/>
 <wire x1="73.5" y1="11.5" x2="73.6" y2="11.44" width="0.3048" layer="1"/>
@@ -2891,12 +2887,10 @@ design rules under a new name.</description>
 <wire x1="67" y1="20.5" x2="69" y2="20.5" width="0.3048" layer="16"/>
 <wire x1="73.5" y1="16" x2="73.55" y2="15.56" width="0.3048" layer="16"/>
 <via x="67" y="20.5" extent="1-16" drill="0.35"/>
-<wire x1="58.4016" y1="20.574" x2="25.5774" y2="53.3982" width="0.3048" layer="1"/>
-<wire x1="66.9798" y1="20.574" x2="58.4016" y2="20.574" width="0.3048" layer="1"/>
-<wire x1="25.54350625" y1="53.42400625" x2="25.5774" y2="53.3982" width="0.3048" layer="1"/>
+<wire x1="58.5216" y1="20.574" x2="24.9174" y2="54.1782" width="0.3048" layer="1"/>
+<wire x1="66.9798" y1="20.574" x2="58.5216" y2="20.574" width="0.3048" layer="1"/>
+<wire x1="24.9174" y1="54.1782" x2="24.88350625" y2="54.20400625" width="0.3048" layer="1"/>
 <wire x1="66.9798" y1="20.574" x2="67" y2="20.5" width="0.3048" layer="1"/>
-<wire x1="26.337084375" y1="56.1131" x2="25.54350625" y2="55.319521875" width="0.3048" layer="1"/>
-<wire x1="25.54350625" y1="55.319521875" x2="25.54350625" y2="53.42400625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="SONAR_FLASHFLEX" pad="1"/>
@@ -2907,11 +2901,9 @@ design rules under a new name.</description>
 <wire x1="78.74" y1="15.45" x2="78.63" y2="15.56" width="0.3048" layer="1"/>
 <wire x1="78.63" y1="15.56" x2="78.63" y2="11.49" width="0.3048" layer="1"/>
 <wire x1="78.68" y1="11.44" x2="78.63" y2="11.49" width="0.3048" layer="1"/>
-<wire x1="57.47" y1="27.43" x2="43.7561375" y2="39.704446875" width="0.3048" layer="1"/>
-<wire x1="43.7561375" y1="39.704446875" x2="43.130528125" y2="40.26439375" width="0.3048" layer="1"/>
+<wire x1="57.47" y1="27.43" x2="43.130528125" y2="40.26439375" width="0.3048" layer="1"/>
+<wire x1="30.170534375" y1="53.2243875" x2="43.130528125" y2="40.26439375" width="0.3048" layer="1"/>
 <wire x1="71.63" y1="27.43" x2="57.47" y2="27.43" width="0.3048" layer="1"/>
-<wire x1="30.170534375" y1="53.2243875" x2="43.690475" y2="39.704446875" width="0.3048" layer="1"/>
-<wire x1="43.690475" y1="39.704446875" x2="43.7561375" y2="39.704446875" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="SONAR_FLASHFLEX" pad="4"/>
@@ -3150,30 +3142,23 @@ design rules under a new name.</description>
 <approved hash="4,1,09caf7b3a5d42ff9"/>
 <approved hash="4,1,efd5a7d60e4901e7"/>
 <approved hash="4,1,84deab700a3344e3"/>
+<approved hash="4,1,ec9bee3d800b82ad"/>
 <approved hash="4,1,b9d4b9f7dde9ddca"/>
 <approved hash="4,1,081a08ffb8e9b80c"/>
 <approved hash="4,1,7e197cc1b737b5ef"/>
 <approved hash="4,1,eb07eb75afafafdd"/>
+<approved hash="4,1,7cd874dbc9e226ff"/>
 <approved hash="4,1,0e61fd7e4169eb3c"/>
 <approved hash="4,1,74a714b2156434d9"/>
 <approved hash="4,1,d1ae0c5fd7066459"/>
-<approved hash="4,1,14a417e6846e872c"/>
-<approved hash="4,1,9eb97c788ea1c7df"/>
-<approved hash="4,16,7e197cc1b737b5ef"/>
-<approved hash="4,16,e3aee3b366896694"/>
-<approved hash="4,16,14a417e6846e872c"/>
-<approved hash="4,16,081a08ffb8e9b80c"/>
-<approved hash="4,16,b9d4b9f7dde9ddca"/>
-<approved hash="4,16,3f843c6af9b0fa5e"/>
-<approved hash="4,16,eb07eb75afafafdd"/>
-<approved hash="4,16,05ca066ab4d4b774"/>
-<approved hash="19,1,3dc61eb7107b37f2"/>
-<approved hash="19,1,ba48d9e45eb19ac6"/>
-<approved hash="4,1,5db74d78e7d8aba8"/>
 </errors>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
